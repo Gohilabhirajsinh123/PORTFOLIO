@@ -102,3 +102,7 @@ a:hover {
 .download-btn:hover {
   background-color: #884ea0;
 }
+
+a{
+  color: black;
+}
