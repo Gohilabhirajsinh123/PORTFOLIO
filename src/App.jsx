@@ -71,6 +71,10 @@ function App() {
               <motion.section className="section gradient-bg3" initial="hidden" animate="show" variants={fadeIn("left")} transition={{ duration: 5.5 }}>
                 <h2>Projects</h2>
                 <div className="project">
+                  <h3>Farmers Selling  (Group Project)</h3>
+                  <p>Created an online platform where farmers can sell their products directly to buyers. Included product listings, user registration, and cart functionality. Backend deployed on Vercel, frontend hosted on GitHub Pages.</p>
+                  <p><strong>Tech Used:</strong> HTML, CSS, JAVASCRIPT, PYTHON ,Payment(UPI, RazorPay)</p>
+                  <br />
                   <h3>Farmers Market</h3>
                   <p>A creative e-commerce platform where farmers create stores and sell fresh produce directly to consumers, eliminating middlemen and increasing farmer profits.</p>
                   <p><strong>Tech Used:</strong> React, Node.js, Tailwind, MongoDB, HTML, JavaScript</p>
@@ -81,7 +85,7 @@ function App() {
             {section === 'Education' && (
               <motion.section className="section gradient-bg" initial="hidden" animate="show" variants={fadeIn("right")} transition={{ duration: 6.5 }}>
                 <h2>Education</h2>
-                <p><strong>B. Tech in Information Technology</strong><br />Silver Oak College of Engineering and Technology, Ahmedabad<br />July 2023 – Present (5th Sem), Score: 9.08 CPI</p>
+                <p><strong>B. Tech in Information Technology</strong><br />Silver Oak College of Engineering and Technology, Ahmedabad<br />July 2023 – Present (5th Sem), <a href={`${process.env.PUBLIC_URL}/RESULT.jpg`} target="_blank" rel="noopener noreferrer">Score: 9.08 CPI</a></p>
                 <p><strong>HSC – Science (A Group)</strong><br />Mother Zainab Jr. Science College, Lilajpur, Dholka<br />June 2022 – May 2023 – PR: 89.20</p>
                 <p><strong>SSC</strong><br />Gopaldas Shivlal Patel Secondary School, Bavla, Ahmedabad<br />June 2020 – May 2021 – PR: 94.52</p>
               </motion.section>
