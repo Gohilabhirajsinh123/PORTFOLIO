@@ -101,14 +101,14 @@ function App() {
                 <h2>Certifications & Courses</h2>
                 <ul>
                   <li><a href={`${process.env.PUBLIC_URL}/Google_Cloud_Career_Launchpad_Cybersecurity_track.jpg`} target="_blank" rel="noopener noreferrer"><b>Google Cloud</b> Career Launchpad – Cybersecurity, May 2025</a></li>
-                  <li><a href={`${process.env.PUBLIC_URL}/JavaScript_Training.jpg`} target="_blank" rel="noopener noreferrer">JavaScript Training – Spoken Tutorial, Mar 2025 (Score: 80%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/JavaScript_Training.jpg`} target="_blank" rel="noopener noreferrer"><b>JavaScript</b> Training – Spoken Tutorial, Mar 2025 (Score: 80%)</a></li>
                   <li><a href={`${process.env.PUBLIC_URL}/command_line_linux.jpg`} target="_blank" rel="noopener noreferrer">Command Line in Linux – <b>Coursera</b>, Mar 2025</a></li>
-                  <li><a href={`${process.env.PUBLIC_URL}/CSS.jpg`} target="_blank" rel="noopener noreferrer">CSS Training – Spoken Tutorial, Feb 2025 (Score: 77.5%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/CSS.jpg`} target="_blank" rel="noopener noreferrer"><b>CSS</b> Training – Spoken Tutorial, Feb 2025 (Score: 77.5%)</a></li>
                   <li><a href={`${process.env.PUBLIC_URL}/DBMS.jpg`} target="_blank" rel="noopener noreferrer">DBMS – <b>Coursera</b>, Feb 2025</a></li>
-                  <li><a href={`${process.env.PUBLIC_URL}/HTML.jpg`} target="_blank" rel="noopener noreferrer">HTML Training – Spoken Tutorial, Sep 2024 (Score: 50%)</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/HTML.jpg`} target="_blank" rel="noopener noreferrer"><b>HTML</b> Training – Spoken Tutorial, Sep 2024 (Score: 50%)</a></li>
                   <li><a href={`${process.env.PUBLIC_URL}/introduction_to_bash_shellscript.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – <b>Coursera</b>, Mar 2025</a></li>
                   <li><a href={`${process.env.PUBLIC_URL}/OSDATACAMP.jpg`} target="_blank" rel="noopener noreferrer">Intro to Bash Scripting – OSDatacamp, Mar 2025</a></li>
-                  <li><a href={`${process.env.PUBLIC_URL}/JAVADATACAMP.jpg`} target="_blank" rel="noopener noreferrer">OOP in Java – DataCamp, Mar 2025</a></li>
+                  <li><a href={`${process.env.PUBLIC_URL}/JAVADATACAMP.jpg`} target="_blank" rel="noopener noreferrer"><b>OOP</b> in <b>Java</b> – DataCamp, Mar 2025</a></li>
                   <li>Magic of Mathematics</li>
                   <li><a href={`${process.env.PUBLIC_URL}/AIA.jpg`} target="_blank" rel="noopener noreferrer">AI Agent – <b>IBM Skill Build</b> </a></li>
                   <li><a href={`${process.env.PUBLIC_URL}/RMs.jpg`} target="_blank" rel="noopener noreferrer">Rise of Multiagent Systems – <b>IBM Skill Build</b></a></li>
